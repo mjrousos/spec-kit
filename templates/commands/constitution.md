@@ -40,6 +40,7 @@ Follow this execution flow:
    - Read `/templates/plan-template.md` and ensure any "Constitution Check" or rules align with updated principles.
    - Read `/templates/spec-template.md` for scope/requirements alignment—update if constitution adds/removes mandatory sections or constraints.
    - Read `/templates/tasks-template.md` and ensure task categorization reflects new or removed principle-driven task types (e.g., observability, versioning, testing discipline).
+   - If the principles relate to testing, read `/templates/test-plan-template.md` and ensure any "Constitution Check" or rules align with updated principles.
    - Read each command file in `/templates/commands/*.md` (including this one) to verify no outdated references (agent-specific names like CLAUDE only) remain when generic guidance is required.
    - Read any runtime guidance docs (e.g., `README.md`, `docs/quickstart.md`, or agent-specific guidance files if present). Update references to principles changed.
 

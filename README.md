@@ -79,6 +79,12 @@ Use the **`/speckit.constitution`** command to create your project's governing p
 /speckit.constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements
 ```
 
+Or, for using Spec Kit to add tests to an existing project, the command might look like this:
+
+```bash
+/speckit.constitution Create principles focused on creating functional tests with high code quality, broad coverage, test reliability, and adherence to testing standards and best practices.
+```
+
 ### 3. Create the spec
 
 Use the **`/speckit.specify`** command to describe what you want to build. Focus on the **what** and **why**, not the tech stack.
@@ -93,6 +99,12 @@ Use the **`/speckit.plan`** command to provide your tech stack and architecture 
 
 ```bash
 /speckit.plan The application uses Vite with minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
+```
+
+If you are using Spec Kit to add tests to an existing project, use the /**`/speckit.plan-tests`** command instead to create a test plan with the specified testing frameworks and tools.
+
+```bash
+/speckit.plan-tests Create tests for this solution using xunit, Moq, AutoFixture, and Playwright. Use WebApplicationFactory/TestServer for integration tests. Testcontainers can be used for integration and end-to-end tests if needed but use mocks - and possibly subclassing - for unit tests.
 ```
 
 ### 5. Break down into tasks
