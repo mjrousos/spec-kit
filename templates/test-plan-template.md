@@ -47,9 +47,10 @@ specs/[###-feature]/
 <!--
   ACTION REQUIRED: Replace the placeholder tree below with the concrete layout
   for these tests. Delete unused options and expand the chosen structure with
-  real paths. The delivered plan must
-  not include Option labels.
+  real paths. The delivered plan must not include Option labels.
 -->
+
+Note that in all cases tests should be grouped under a tests/ directory or similar.
 
 ```
 # [REMOVE IF UNUSED] Option 1: Functional tests divided by type (DEFAULT)
@@ -76,6 +77,14 @@ directories captured above]
 ### Test Cases
 [Outline the test cases to be implemented, organized by source file or feature as
 appropriate. Include brief descriptions of the purpose of each test case.]
+
+### Do Not Change Existing Product Code
+
+This plan is for creating new test files only. Do not modify existing product code. Only add new test files.
+
+If a test fails because of a bug in the existing code, document the failure and allow the test to fail. Do not change existing code to make tests pass.
+
+If a minor change is absolutely necessary to enable testing (e.g., making a method public), ask for approval first.
 
 ## Complexity Tracking
 

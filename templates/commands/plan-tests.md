@@ -75,6 +75,7 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Ensure test cases cover positive and negative scenarios, edge cases, and error handling
    - Identify equivalence classes and boundaries for each method being tested; then include parameterized test sets that include pairwise combinations for key input dimensions. 
    - Document all test cases in IMPL_PLAN under "Test Cases" section with clear descriptions
+   - This can be slow, so consider planning test cases by breaking the complete list of source files into parts or even handling one source file at a time then moving to the next (`source-files.md` can be updated to track status)
 
 3. **Test case review**:
    - Review generated test cases for completeness and clarity

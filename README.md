@@ -421,6 +421,7 @@ At this stage, your project folder contents should resemble the following:
     │	 ├── common.sh
     │	 ├── create-new-feature.sh
     │	 ├── setup-plan.sh
+    │	 ├── setup-test-plan.sh
     │	 └── update-claude-md.sh
     ├── specs
     │	 └── 001-create-taskify
@@ -481,6 +482,7 @@ The output of this step will include a number of implementation detail documents
 │	 ├── common.sh
 │	 ├── create-new-feature.sh
 │	 ├── setup-plan.sh
+│	 ├── setup-test-plan.sh
 │	 └── update-claude-md.sh
 ├── specs
 │	 └── 001-create-taskify

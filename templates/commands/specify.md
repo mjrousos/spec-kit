@@ -39,6 +39,7 @@ Given that feature description, do this:
        - Prioritize clarifications by impact: scope > security/privacy > user experience > technical details
     4. Fill User Scenarios & Testing section
        If no clear user flow: ERROR "Cannot determine user scenarios"
+       If the user description is primarily about creating tests for an existing solution, provide guidance on what tests to create (types of tests - unit tests, integration tests, end-to-end tests - and what parts of the project to cover) rather than traditional user scenarios. Also note that if the description is about testing existing code, then existing code should not be modified. Only new test files should be created.
     5. Generate Functional Requirements
        Each requirement must be testable
        Use reasonable defaults for unspecified details (document assumptions in Assumptions section)

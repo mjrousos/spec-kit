@@ -75,7 +75,7 @@ You **MUST** consider the user input before proceeding (if not empty).
    - **Polish and validation**: Unit tests, performance optimization, documentation
 
 7. Progress tracking and error handling:
-   - Report progress after each completed task
+   - Report progress after each completed task by updating the tasks file
    - Halt execution if any non-parallel task fails
    - For parallel tasks [P], continue with successful tasks, report failed ones
    - Provide clear error messages with context for debugging

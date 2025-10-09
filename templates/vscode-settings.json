@@ -3,10 +3,12 @@
         "speckit.constitution": true,
         "speckit.specify": true,
         "speckit.plan": true,
+        "speckit.plan-tests": true,
         "speckit.tasks": true,
         "speckit.implement": true
     },
     "chat.tools.terminal.autoApprove": {
+        "/^dotnet\\b.*$/": true,
         ".specify/scripts/bash/": true,
         ".specify/scripts/ps/": true
     }
