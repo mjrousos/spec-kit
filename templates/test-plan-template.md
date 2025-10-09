@@ -50,7 +50,7 @@ specs/[###-feature]/
   real paths. The delivered plan must not include Option labels.
 -->
 
-Note that in all cases tests should be grouped under a tests/ directory or similar.
+Note that in all cases test projects should be grouped under a tests/ directory or similar.
 
 ```
 # [REMOVE IF UNUSED] Option 1: Functional tests divided by type (DEFAULT)

@@ -81,6 +81,7 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Review generated test cases for completeness and clarity
    - Ensure that test cases exist for all source files in `source-files.md`
    - Validate that test cases are actionable and specific enough for implementation
+   - Make sure the plan includes validating code coverage meets requirements (and that additional tests are added if coverage is insufficient)
 
 ### Phase 2: Agent Context Update
 
@@ -110,5 +111,5 @@ You **MUST** consider the user input before proceeding (if not empty).
 - **Integration Tests**: Tests that verify interactions between multiple components or systems
 - **Mock/Test Double**: Fake objects that simulate real dependencies for testing purposes
 - **Pairwise Testing**: Combinatorial testing technique that tests all possible pairs of input parameters
-- **Parameterized Tests**: Tests that run multiple times with different input values using [Theory] and [InlineData]
+- **Parameterized Tests**: Tests that run multiple times with different input values (using [Theory] and [InlineData], for example)
 - **Unit Tests**: Fast, isolated tests that verify individual components in isolation
