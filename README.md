@@ -84,10 +84,10 @@ Use the **`/speckit.constitution`** command to create your project's governing p
 /speckit.constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements
 ```
 
-Or, for using Spec Kit to add tests to an existing project, the command might look like this:
+Or, for using Spec Kit to add tests to an existing project, the command might look like this (including some instructions to forgo SpecKit's usual test-driven development approach):
 
 ```bash
-/speckit.constitution Create principles focused on creating functional tests with high code quality, broad coverage, test reliability, and adherence to testing standards and best practices.
+/speckit.constitution Create principles focused on creating functional tests with high code quality, broad coverage, test reliability, and adherence to common testing standards and best practices. Because this constitution will be used to create tests for an *existing* codebase, TDD doesn't make sense. Update the constitution to remove "Test-First Implementation" and related references. Instead, emphasize that testing needs to consider unit tests, integration tests, and end-to-end tests. Generally prepare the constitution for being used in the context of only creating tests.
 ```
 
 ### 3. Create the spec
@@ -106,7 +106,7 @@ Use the **`/speckit.plan`** command to provide your tech stack and architecture 
 /speckit.plan The application uses Vite with minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
 ```
 
-If you are using Spec Kit to add tests to an existing project, use the /**`/speckit.plan-tests`** command instead to create a test plan with the specified testing frameworks and tools.
+If you are using Spec Kit to add tests to an existing project, use the /**`/speckit.plan-tests`** command instead to create a test plan with the testing frameworks and tools you prefer.
 
 ```bash
 /speckit.plan-tests Create tests for this solution using xunit, Moq, AutoFixture, and Playwright. Use WebApplicationFactory/TestServer for integration tests. Testcontainers can be used for integration and end-to-end tests if needed but use mocks - and possibly subclassing - for unit tests.

@@ -40,6 +40,7 @@
 specs/[###-feature]/
 ├── plan.md              # This file (/speckit.plan-tests command output)
 ├── research.md          # Phase 0 output (/speckit.plan-tests command)
+├── source-files.md      # Phase 1 output (/speckit.plan-tests command)
 └── tasks.md             # Phase 2 output (/speckit.tasks command - NOT created by /speckit.plan-tests)
 ```
 
@@ -73,6 +74,19 @@ tests/
 
 **Structure Decision**: [Document the selected structure and reference the real
 directories captured above]
+
+### Definition of Done
+
+Each phase of implementation is NOT complete until:
+
+1. All tasks for the phase are completed.
+2. The solution builds without errors and there are no new compiler warnings.
+3. All new tests pass or fail because of known issues in existing code.
+
+The plan is complete when:
+
+1. All phases are complete.
+2. Code coverage meets requirements (e.g., 80% line coverage).
 
 ### Test Cases
 [Outline the test cases to be implemented, organized by source file or feature as

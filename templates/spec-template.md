@@ -105,6 +105,8 @@
 <!--
   ACTION REQUIRED: Define measurable success criteria.
   These must be technology-agnostic and measurable.
+
+  For specs primarily about testing, focus on tests passing and coverage metrics.
 -->
 
 ### Measurable Outcomes
