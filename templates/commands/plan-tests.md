@@ -54,6 +54,8 @@ You **MUST** consider the user input before proceeding (if not empty).
      Task: "Research {unknown} for {feature context}"
    For each technology choice:
      Task: "Find best practices for {tech} in {domain}"
+   For each major technology used in the solution to be tested:
+     Task: "Identify common testing patterns for {tech}"
    ```
 
 4. **Consolidate findings** in `research.md` using format:
