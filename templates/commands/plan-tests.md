@@ -72,7 +72,7 @@ You **MUST** consider the user input before proceeding (if not empty).
 1. **Extract source structure**:
    - Analyze solution to identify source files to be tested
    - Document source files to test in `source-files.md` with brief description of each using format:
-       - `path/to/source/file.ext`: [Brief description of the file's purpose and functionality]
+       - `path/to/source/file.ext`: [Brief description of the file's purpose and functionality, including technical dependencies that would impact testing]
 
 2. **Define test cases**:
    - For every source file in `source-files.md`, outline test cases to be implemented under "Test Cases" section of the plan
