@@ -123,6 +123,7 @@ fi
 docs=()
 
 # Always check these optional docs
+[[ -f "$QUEUE" ]] && docs+=("queue.md")
 [[ -f "$RESEARCH" ]] && docs+=("research.md")
 [[ -f "$DATA_MODEL" ]] && docs+=("data-model.md")
 

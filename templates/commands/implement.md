@@ -51,6 +51,7 @@ You **MUST** consider the user input before proceeding (if not empty).
 3. Load and analyze the implementation context:
    - **REQUIRED**: Read tasks.md for the complete task list and execution plan
    - **REQUIRED**: Read plan.md for tech stack, architecture, and file structure
+   - **IF EXISTS**: Read queue.md for focused implementation scope (if present, only implement tasks in queue)
    - **IF EXISTS**: Read data-model.md for entities and relationships
    - **IF EXISTS**: Read contracts/ for API specifications and test requirements
    - **IF EXISTS**: Read research.md for technical decisions and constraints
@@ -134,5 +135,11 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Validate that tests pass and coverage meets requirements
    - Confirm the implementation follows the technical plan
    - Report final status with summary of completed work
+
+10. Update plan implementation status:
+   - Update the implementation plan (`plan.md`) to reflect completed tasks and phases (based on `tasks.md` status)
+   - Mark each work item or milestone as completed, as appropriate based on the executed tasks documented in `tasks.md`
+   - This update is separate from marking tasks in `tasks.md` and focuses on the higher-level plan status
+   - Note that completed work may cover the entire plan or just a portion, depending on the scope of the executed tasks and whether a queue file was used to focus on specific parts of the plan
 
 Note: This command assumes a complete task breakdown exists in tasks.md. If tasks are incomplete or missing, suggest running `/speckit.tasks` first to regenerate the task list.

@@ -94,6 +94,45 @@ ios/ or android/
 **Structure Decision**: [Document the selected structure and reference the real
 directories captured above]
 
+## Implementation Milestones
+[Fill in detailed steps for implementation organized into logical milestones. Each milestone should contain specific details on work to be accomplished during that phase of the project. Include specific tasks, deliverables, and exit criteria.]
+
+[Begin with foundational work and then move towards more complex features. Ensure each milestone builds upon the previous one.]
+
+### Milestone 1: [Name]
+[Milestone description and objectives]
+
+Duration: [e.g., 1 week]
+
+- [Task 1]
+- [Task 2]
+- [Task 3]
+- ...
+
+Validation Steps:
+- [Define how the milestone will be validated]
+
+Exit Criteria:
+- [Define what constitutes completion of this milestone]
+- [Include any necessary reviews, tests, or validations required]
+
+### Milestone 2: [Name]
+[Milestone description and objectives]
+
+Duration: [e.g., 2 weeks]
+
+- [Task 1]
+- [Task 2]
+- [Task 3]
+- ...
+
+Validation Steps:
+- [Define how the milestone will be validated]
+
+Exit Criteria:
+- [Define what constitutes completion of this milestone]
+- [Include any necessary reviews, tests, or validations required]
+
 ## Complexity Tracking
 
 > **Fill ONLY if Constitution Check has violations that must be justified**

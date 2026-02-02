@@ -28,7 +28,10 @@ You **MUST** consider the user input before proceeding (if not empty).
 
 1. **Setup**: Run `{SCRIPT}` from repo root and parse JSON for FEATURE_SPEC, IMPL_PLAN, SPECS_DIR, BRANCH. For single quotes in args like "I'm Groot", use escape syntax: e.g 'I'\''m Groot' (or double-quote if possible: "I'm Groot").
 
-2. **Load context**: Read FEATURE_SPEC and `/memory/constitution.md`. Load IMPL_PLAN template (already copied).
+2. **Load context**: 
+   - Read FEATURE_SPEC and `/memory/constitution.md`. 
+   - If `/memory/business-logic-summary.md`, `/memory/technical-architecture.md`, and `/memory/assessment.md` exist (in scenarios with an existing codebase to update or modernize), read them also. 
+   - Load IMPL_PLAN template (already copied).
 
 3. **Execute plan workflow**: Follow the structure in IMPL_PLAN template to:
    - Fill Technical Context (mark unknowns as "NEEDS CLARIFICATION")
@@ -36,6 +39,7 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Evaluate gates (ERROR if violations unjustified)
    - Phase 0: Generate research.md (resolve all NEEDS CLARIFICATION)
    - Phase 1: Generate data-model.md, contracts/, quickstart.md
+   - Phase 1: Fill implementation milestones in IMPL_PLAN
    - Phase 1: Update agent context by running the agent script
    - Re-evaluate Constitution Check post-design
 
@@ -80,7 +84,14 @@ You **MUST** consider the user input before proceeding (if not empty).
    - Use standard REST/GraphQL patterns
    - Output OpenAPI/GraphQL schema to `/contracts/`
 
-3. **Agent context update**:
+3. **Fill implementation milestones** in `plan.md`:
+   - Break work down into milestones with deliverables
+   - Arrange work into comprehensive tasks organized by milestone with enough detail for execution
+   - Assign estimated timelines
+   - Define validation processes and success criteria for each milestone
+   - The tasks in these milestones should be formatted so that status can be easily tracked (in-progress, completed, etc.)
+
+4. **Agent context update**:
    - Run `{AGENT_SCRIPT}`
    - These scripts detect which AI agent is in use
    - Update the appropriate agent-specific context file
