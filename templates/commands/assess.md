@@ -7,7 +7,7 @@ tools: ['edit', 'execute', 'read', 'search', 'web/fetch', 'agent']
 
 Your task is to leverage sub-agents to run several assessment workflows of the current solution codebase.
 
-To do this, use the #runSubagent tool to run the following two sub-agent workflows in parallel. Each sub-agent will perform a specific type of analysis on the solution and generate a report.
+To do this, use the #runSubagent tool to run the following two sub-agent workflows. Each sub-agent will perform a specific type of analysis on the solution and generate a report.
 
 **IMPORTANT**: For prompt files executed by sub-agents, do not simply summarize the prompts for the sub-agents. Instead, **share the file paths with instructions that the sub-agents should read the files themselves so that they can see the full details and requirements**.
 
